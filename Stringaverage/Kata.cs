@@ -13,7 +13,6 @@ namespace Stringaverage
     if (str != "")
     {
 	 char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
-	 //string text = "one two three four";
 	 string[] words = str.Split(delimiterChars);
 	 double count = 0;
 	 double f =0;
@@ -112,54 +111,3 @@ namespace Stringaverage
 }
     }
 }
-
-
-
-/*
-for(int i=0;i<chars.Length;i++)
-		{
-			//count +=i;
-			switch(chars[i])
-			{
-				case 'one':
-				{
-					count +=1;
-				}
-				case 'two':
-				{
-					count +=2;
-				}
-				case 'three':
-				{
-					count +=3;
-				}
-				case 'four':
-				{
-					count +=4;
-				}
-				case 'five':
-				{
-					count +=5;
-				}
-				case 'six':
-				{
-					count +=6;
-				}
-				case 'seven':
-				{
-					count +=7;
-				}
-				case 'eight':
-				{
-					count +=8;
-				}
-				case 'nine':
-				{
-					count +=9;
-				}
-				default:
-				{
-					count +=0; // I don't sure
-				}
-			}
-		}*/
